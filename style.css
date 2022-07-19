@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background: #AAAAAA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* heder section start */
+.header {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+
+
+}
+
+.logo {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li {
+    list-style: none;
+    padding-left: 34px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+
+/* header section end */
+
+/* bannar section start */
+.sec-1 {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    place-items: center;
+    column-gap: 133px;
+}
+
+.sec-1-div-1 {
+    width: 582px;
+    height: 270px;
+
+}
+
+.sec-1-div-1 h1 {
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.sec-1-div-1 p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+.sec-1-div-1 .btn {
+    height: 44px;
+    width: 196px;
+    border-radius: 41px;
+    padding: 10px, 24px, 10px, 24px;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(224, 44, 109, 1);
+    margin-top: 26px;
+}
+
+.sec-1-div-2 {
+    height: 475px;
+    width: 475px;
+    background-image: url("images/Circle.svg");
+    background-size: cover;
+}
+
+.sec-1-div-2 img1 {
+    width: 440px;
+    height: 414px;
+}
+
+/* bannar section end */
+
+/* <!-- shop-logo section start */
+.shop-logo {
+    width: 1110px;
+    height: 110px;
+    border: 1px solid brown;
+    border-left: transparent;
+    border-right: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 69px
+}
+
+.logo img {
+    width: 99px;
+    height: 39px;
+}
+
+/* <!-- shop-logo section start * --> */
+
+/* <!-- populer section start --> */
+.sec-2 {
+    width: 1047px;
+    height: 1662px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* <!-- populer section end --> */
