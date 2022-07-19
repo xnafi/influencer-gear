@@ -7,7 +7,7 @@
 body {
     width: 100vw;
     font-family: 'Poppins', sans-serif;
-    background: #AAAAAA;
+    background: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,9 +153,77 @@ main {
     width: 1047px;
     height: 1662px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     text-align: center;
     margin-top: 100px;
+}
+
+.sec-2 h2 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.card-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.cards {
+    height: 476px;
+    width: 329px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 17px 14px;
+
+}
+
+.cards img {
+    width: 300px;
+    height: 256px;
+}
+
+.card-info {
+    text-align: left;
+}
+
+.card-info h3 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 16px;
+    padding-bottom: 6px;
+}
+
+.card-info h4 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.star-ratings {
+    display: flex;
+    gap: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 10px;
+
+}
+
+.card-info p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.018em;
+    text-align: left;
+    padding-top: 10px;
+
 }
 
 /* <!-- populer section end --> */
